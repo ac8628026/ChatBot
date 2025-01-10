@@ -1,6 +1,5 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-
 export const sendMessage = async (message) => {
   try {
     const genAI = new GoogleGenerativeAI(
@@ -16,5 +15,5 @@ export const sendMessage = async (message) => {
     throw error;
   }
 };
-
+ 
 

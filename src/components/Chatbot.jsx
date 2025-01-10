@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { sendMessage } from "../Apis/Giminiapi";
+import { sendMessage } from "../APIs/Giminiapi";
 import { useTheme } from '../ThemeContext';
 import "./chatbot.css";
 import send_icon from "./send_icon.png";
