@@ -1,0 +1,18 @@
+.user-msg {
+    clear: both;
+    background-color: rgb(58, 53, 46);
+    align-self: flex-end;
+    max-width: 70%;
+}
+
+.light-mode-user-msg {
+    background-color: rgb(229, 231, 235);
+}
+
+.bot-msg {
+    align-self: flex-start;
+}
+
+.light-mode-bot-msg {
+    background-color: rgb(243, 244, 246);
+}
